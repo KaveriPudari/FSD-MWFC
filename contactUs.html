@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" value="width:width-device ,initisl-scale=1.0">
+    <title>Contact Page</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+        .contact {
+            text-align: center;
+        }
+        .page{
+            background-color: black;
+            color:white;
+            margin-left:50vh ;
+            width:50%;
+            height:50%;
+            text-align:center;
+            padding-top:10px;
+            padding-bottom:3px;
+            margin-bottom:120px;
+        }
+        .head{
+            width:100% ;
+            padding:7px;
+        }
+        .head label{
+            width:20% ;
+            padding:3px;
+        }
+        .head input{
+            width:70% ;
+        }
+        .head textarea{
+            height:100px;
+            width:500px;
+        }
+        .head button:hover{
+            background-color: green;
+        }
+        .footer{
+            background-color: green;
+            text-align:center;
+        }
+        .footer ul{
+            display:flex ;
+            justify-content:space-around ;
+            list-style-type:none ;
+            text-align:center;
+            padding-bottom:3px ;
+        }
+        .end{
+            background-color: black;
+            color:white;
+            text-align: center;
+            padding:5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="contact">
+            <h1><u>Contact</u></h1>
+        </div>
+    </header>
+    <main>
+        <div class="page">
+            <form class="form-box">
+                <div class="head">
+                    <label>Name:</label><input type="text" name="text" required>
+                </div>
+                <div class="head">
+                    <label>Number:</label><input type="number" size="15" name="number" required>
+                </div>
+                <div class="head">
+                    <label>Email:</label><input type="email" name="email" required>
+                </div>
+                <div class="head">
+                    <label>Message:</label><textarea placeholder="other information..."></textarea>
+                </div>
+                <div class="head">
+                    <button onclick="submit" style="background-color: blue;">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <section class="footer">
+                <p>To contact about any further details mail to kaveripudari2004@gmail.com</p>
+                <ul>
+                    <li>Phone:<i class="far fa-phone fa-2x"></i>8143252736</li>
+                    <li>Email:kaveripudari2004@gmail.com</li>
+                    <li>Website:<a href="mywebsite.html">MyWebsite</a></li>
+                </ul>
+            </section>
+        </div>
+        <div>
+            <section class="end">
+                <p>Thanks for visiting  ©All Rights Reserved.</p>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>
